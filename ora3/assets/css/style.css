@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: #9c1010;
+}
+
+/* Header */
+
+.header {
+    position: relative;
+    height: 120px;
+    border-top: solid 10px #9c1010;
+    padding-top: 10px;
+}
+
+.header::after {
+    content: "";
+    display: block;
+    height: 10px;
+    width: 100%;
+    background-image: linear-gradient(to top, #bb5a5a, #d19191, #f1dede);
+    position: absolute;
+    bottom: 0;
+}
+
+.header-content {
+    height: 100%;
+    width: 1170px;
+    padding: 0 15px 10px 35px;
+    margin: 0 auto;
+    /* box-shadow: 0px 15px 10px -15px #111;  */
+
+}
+
+.header-image {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Container */
+#container {
+    margin: 12px 20%;
+}
+
+.container-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.container-heading h3 {
+    margin-right: 16px;
+}
+
+#export-btn {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#export-btn i {
+    font-size: 20px;
+    color: #9c1010;
+}
+
+#export-btn span {
+    font-size: 16px;
+}
+
+.group-item {
+    margin-top: 30px;
+    padding-top: 4px;
+    border: 2px solid #ff9900;
+    min-height: 120px;
+}
+
+h4 {
+    font-size: 1.4rem;
+    background: #fff;
+    color: #398bbb;
+    font-weight: 600;
+    margin-left: 12px;
+    display: inline-block;
+    /* min-width: 300px; */
+}
+
+.delete-btn {
+    background: #fff;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.delete-btn i {
+   font-size: 18px;
+}
+
+.add-group-btn, .add-info-btn {
+    background-color: #fff;
+    cursor: pointer;
+    float: right;
+    margin-right: 12px;
+    font-size: 1.4rem;
+}
+
+ul {
+    margin: 12px 0 12px 12%;
+}
+
+li {
+    height: 30px;
+    padding: 4px 0;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+}
+
+li label {
+    font-size: 1.4rem;
+    line-height: 22px;
+    height: 22px;
+    /* min-width: 240px; */
+    flex-basis: 40%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+li .select-tag, .edit-field {
+    flex-basis: 40%;
+    height: 22px;
+    outline: none;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 0 4px;
+    margin-right: 8px;
+    word-wrap: break-word;
+}
+
+li .select-tag {
+    padding-left: 0;
+}
+
+li div {
+    flex-basis: 40%;
+    margin-right: 8px;
+}
+
+
+
+
+
+
+

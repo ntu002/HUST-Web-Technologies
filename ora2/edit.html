@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <title>Chỉnh sửa thông tin</title>
+</head>
+
+<body>
+  <div id="main">
+    <!-- begin nav  -->
+    <div id="nav">
+      <div class="left-menu-panel">
+        <h3>
+          <img src="assets/img1.png" style="
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                vertical-align: middle;
+              " />
+          Nguyễn Ngọc Tú
+        </h3>
+        <ul class="nav-info">
+          <li>
+            <a href="#">
+              Thư báo
+              <span class="badge">0</span>
+            </a>
+          </li>
+          <li><a href="">Mật khẩu</a></li>
+          <li><a href="">Cấp lại mật khẩu Email trường</a></li>
+          <li><a href="">Thoát đăng nhập</a></li>
+          <li><a href="">Thông tin mật khẩu Email cấp mới</a></li>
+          <li><a href="">Xác nhận khai báo y tế</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>QUẢN LÝ HỒ SƠ SINH VIÊN</h3>
+        <ul class="nav-info">
+          <li><a href="">Thông tin sinh viên</a></li>
+          <li><a href="">Cập nhật thông tin cá nhân</a></li>
+          <li><a href="">Thông tin lớp sinh viên</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>ĐÀO TẠO</h3>
+        <ul class="nav-info">
+          <li class="nav-element">
+            <a href="">Chương trình đào tạo</a>
+            <ul class="sub-nav-info">
+              <li><a href="">Chương trình đào tạo sinh viên</a></li>
+              <li><a href="">Danh mục học phần</a></li>
+            </ul>
+          </li>
+          <li class="nav-element">
+            <a href="">Kế hoạch học tập</a>
+            <ul class="sub-nav-info">
+              <li><a href="">Đăng ký học phần</a></li>
+              <li><a href="">Thời khóa biểu</a></li>
+              <li><a href="">Tra cứu đăng ký lớp các kỳ</a></li>
+            </ul>
+          </li>
+          <li class="nav-element">
+            <a href="">Kết quả học tập</a>
+            <ul class="sub-nav-info">
+              <li><a href="">Kết quả thi TOEIC</a></li>
+              <li><a href="">Bảng điểm cá nhân</a></li>
+              <li><a href="">Bảng điểm học phần</a></li>
+              <li><a href="">Kiểm tra nhập điểm kỳ mới nhất</a></li>
+            </ul>
+          </li>
+          <li class="nav-element">
+            <a href="">Đồ án - Tốt nghiệp</a>
+            <ul class="sub-nav-info">
+              <li><a href="">Kết quả xét nhận ĐATN</a></li>
+              <li><a href="">Đăng ký xét tốt nghiệp</a></li>
+            </ul>
+          </li>
+          <li><a href="">Thời khóa biểu tạm thời</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>Tư vấn trực tuyến</h3>
+        <ul class="nav-info">
+          <li><a href="">Hỏi đáp - Tư vấn trực tuyến</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>Tài chính học vụ</h3>
+        <ul class="nav-info">
+          <li><a href="">Thông tin công nợ học phí</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>Dịch vụ hành chính</h3>
+        <ul class="nav-info">
+          <li><a href="">ĐK cấp giấy tờ</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end nav  -->
+
+    <!-- begin content -->
+    <div id="main-content">
+      <div class="heading">
+        <h3 class="heading-content">CẬP NHẬT THÔNG TIN SINH VIÊN</h3>
+      </div>
+      <div class="form-edit">
+        <form action="index.html" method="get">
+          <div class="info-student">
+            <div class="init-info normal-text">
+              <label for="name">Họ và tên:&emsp;</label>
+              <input id="name" type="text" value="Nguyễn Ngọc Tú" name="name" />
+            </div>
+            <div class="init-info normal-text">
+              <label for="gender">Giới tính:&emsp;</label>
+              <input id="gender" type="radio" name="gender" value="1" checked />
+              Nữ
+              <input id="gender" type="radio" name="gender" value="0" /> Nam
+              <input id="gender" type="radio" name="gender" value="2" /> Khác
+            </div>
+            <div class="init-info normal-text">
+              <label for="time-enrollment">Năm vào trường:&emsp;</label>
+              <input id="time-enrollment" type="number" value="2020" min="1900" max="2023" name="time-enrollment" />
+            </div>
+            <div class="init-info normal-text">
+              <label for="class">Lớp:&emsp;</label>
+              <input id="class" type="text" name="class" value="Việt Nhật 03-K65" />
+            </div>
+            <div class="init-info normal-text">
+              <label for="education-level">Bậc đào tạo:&emsp;</label>
+              <input id="education-level" name="education-level" type="text" value="KSCLC-TN-TT-VN-ICT" />
+            </div>
+            <div class="init-info normal-text">
+              <label for="course">Khóa học:&emsp;</label>
+              <input id="course" type="number" min="0" max="67" name="course" value="65" />
+            </div>
+            <div class="init-info normal-text">
+              <label for="program">Chương trình:&emsp;</label>
+              <input id="program" name="program" type="text" value="Công nghệ thông tin Việt-Nhật 2020" />
+            </div>
+            <div class="init-info normal-text">
+              <label for="email">Email:&emsp;</label>
+              <input id="email" name="email" type="email" value="tu.nn205135@sis.hust.edu.vn" />
+            </div>
+            <div class="init-info normal-text">
+              <label for="department">Khoa/Viện quản lý:&emsp;</label>
+              <input id="department" name="department" type="text" value="Trường Công nghệ Thông tin và Truyền thông" />
+            </div>
+            <div class="init-info normal-text">
+              <label for="status">Tình trạng học tập:&emsp;</label>
+              <select name="study-status" id="status" aria-placeholder="Học">
+                <option value="studying">Học</option>
+                <option value="reserve">Bảo lưu</option>
+                <option value="graduated">Ra trường</option>
+              </select>
+            </div>
+          </div>
+          <div class="submit">
+            <button name="button" value="OK" type="submit" formaction="index.html">
+              Submit
+            </button>
+            &emsp;&emsp;&emsp;&emsp;
+            <button>
+              <a style="color: #000; text-decoration: none" href="index.html">Cancel</a>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-main">
+        <div class="footer-left"></div>
+        <div class="footer-right">
+          <hr />
+          <b>Trường Đại học Bách Khoa Hà Nội</b>
+          <br /><br />
+          <p>Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

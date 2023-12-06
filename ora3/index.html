@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ORA #3: TTSV</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="main">
+      <header class="header">
+        <div class="header-content">
+          <img
+            class="header-image"
+            src="./assets/image/image-cttdt.png"
+            alt="Image"
+          />
+        </div>
+      </header>
+      <div id="container">
+        <div class="container-heading">
+          <h3>THÔNG TIN CÁ NHÂN</h3>
+          <button id="export-btn">
+            <i class="fa-solid fa-file-pdf"></i>
+            <span>Export to PDF</span>
+          </button>
+        </div>
+        <div class="group-item">
+          <h4 ondblclick="editText(event)">Thông tin sinh viên_20205135</h4>
+          <button class="add-group-btn" onclick="addGroup(event)">
+            < Add Group Item >
+          </button>
+          <button class="add-info-btn" onclick="addInfo(event)">
+            < Add Info Item >
+          </button>
+          <ul></ul>
+        </div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.22/pdfmake.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

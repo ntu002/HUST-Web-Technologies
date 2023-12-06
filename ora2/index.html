@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>THÔNG TIN CÁ NHÂN</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="assets/main.js" />
+</head>
+
+<body>
+  <div id="main">
+    <!-- begin nav  -->
+    <div id="nav">
+      <div class="left-menu-panel">
+        <h3>
+          <img src="assets/img1.png" style="
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                vertical-align: middle;
+              " />
+          Nguyễn Ngọc Tú
+        </h3>
+        <ul class="nav-info">
+          <li>
+            <a href="#">
+              Thư báo
+              <span class="badge">0</span>
+            </a>
+          </li>
+          <li><a href="">Đổi mật khẩu</a></li>
+          <li><a href="">Cấp lại mật khẩu Email trường</a></li>
+          <li><a href="">Thoát đăng nhập</a></li>
+          <li><a href="">Thông tin mật khẩu Email cấp mới</a></li>
+          <li><a href="">Xác nhận khai báo y tế</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>QUẢN LÝ HỒ SƠ SINH VIÊN</h3>
+        <ul class="nav-info">
+          <li><a href="">Thông tin sinh viên</a></li>
+          <li><a href="">Cập nhật thông tin cá nhân</a></li>
+          <li><a href="">Thông tin lớp sinh viên</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>ĐÀO TẠO</h3>
+        <ul class="nav-info">
+          <li class="nav-element">
+            <a href="">Chương trình đào tạo</a>
+            <ul class="sub-nav-info">
+              <li><a href="">Chương trình đào tạo sinh viên</a></li>
+              <li><a href="">Danh mục học phần</a></li>
+            </ul>
+          </li>
+          <li class="nav-element">
+            <a href="">Kế hoạch học tập</a>
+            <ul class="sub-nav-info">
+              <li><a href="">Đăng ký học phần</a></li>
+              <li><a href="">Thời khóa biểu</a></li>
+              <li><a href="">Tra cứu đăng ký lớp các kỳ</a></li>
+            </ul>
+          </li>
+          <li class="nav-element">
+            <a href="">Kết quả học tập</a>
+            <ul class="sub-nav-info">
+              <li><a href="">Kết quả thi TOEIC</a></li>
+              <li><a href="">Bảng điểm cá nhân</a></li>
+              <li><a href="">Bảng điểm học phần</a></li>
+              <li><a href="">Kiểm tra nhập điểm kỳ mới nhất</a></li>
+            </ul>
+          </li>
+          <li class="nav-element">
+            <a href="">Đồ án - Tốt nghiệp</a>
+            <ul class="sub-nav-info">
+              <li><a href="">Kết quả xét nhận ĐATN</a></li>
+              <li><a href="">Đăng ký xét tốt nghiệp</a></li>
+            </ul>
+          </li>
+          <li><a href="">Thời khóa biểu tạm thời</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>Tư vấn trực tuyến</h3>
+        <ul class="nav-info">
+          <li><a href="">Hỏi đáp - Tư vấn trực tuyến</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>Tài chính học vụ</h3>
+        <ul class="nav-info">
+          <li><a href="">Thông tin công nợ học phí</a></li>
+        </ul>
+      </div>
+      <br />
+
+      <div class="left-menu-panel">
+        <h3>Dịch vụ hành chính</h3>
+        <ul class="nav-info">
+          <li><a href="">ĐK cấp giấy tờ</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end nav  -->
+
+    <!-- begin content  -->
+    <div class="content-container">
+      <div class="content-title">
+        <h3>THÔNG TIN CÁ NHÂN</h3>
+        <hr />
+      </div>
+
+      <div id="main-content">
+        <div class="main-content-title">
+          <div class="title-and-edit">
+            <h3>THÔNG TIN SINH VIÊN</h3>
+            <a class="edit-icon" style="cursor: pointer">
+              <i class="fa-regular fa-pen-to-square"></i>
+            </a>
+          </div>
+          <hr />
+        </div>
+        <div class="main-content-edited">
+          <div class="main-content-container">
+            <div class="main-content-info col-third">
+              <div class="img-info">
+                <img id="img-edited" src="assets/img1.png" />
+                <span class="normal-text">
+                  <strong>MSSV:</strong>
+                  20205135
+                </span>
+              </div>
+            </div>
+            <div class="main-content-info col-third">
+              <span class="normal-text">
+                <strong>Họ và tên : </strong>
+                <span id="name">Nguyễn Ngọc Tú</span>
+                <br />
+                <strong>Năm vào trường : </strong>
+                <span id="time-enrollment">2020</span>
+                <br />
+                <strong>Bậc đào tạo : </strong>
+                <span id="education-level">KSCLC-TN-TT-VN-ICT</span>
+                <br />
+                <strong>Chương trình : </strong>
+                <span id="program">Công nghệ thông tin Việt-Nhật 2020</span>
+                <br />
+                <strong>Khoa/Viện quản lý : </strong>
+                <span id="department">Trường Công nghệ Thông tin và Truyền thông</span>
+                <br />
+                <strong>Tình trạng học tập : </strong>
+                <span id="status">Học</span>
+                <br />
+              </span>
+            </div>
+            <div class="main-content-info col-third">
+              <span class="normal-text">
+                <strong>Giới tính : </strong>
+                <span id="gender">Nữ</span>
+                <br />
+                <strong>Lớp : </strong>
+                <span id="class">Việt Nhật 03-K65</span>
+                <br />
+                <strong>Khóa học :</strong>
+                <span id="course">65</span>
+                <br />
+                <strong>Email : </strong>
+                <span id="email">tu.nn205135@sis.hust.edu.vn</span>
+                <br />
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-content-editing">
+          <div class="form-edit normal-text">
+            <form action="index.html" method="get">
+              <div class="submit">
+                <button id="buttonOK" name="buttonOK" value="OK" type="submit" formaction="index.html">
+                  OK
+                </button>
+                &emsp;&emsp;&emsp;&emsp;
+                <button id="buttonCancel" name="buttonCancel">Cancel</button>
+                &emsp;&emsp;&emsp;&emsp;
+                <button id="buttonReset" name="buttonReset" value="reset">
+                  Reset
+                </button>
+              </div>
+              <div class="info-edit-student">
+                <div class="col-third img-info" style="width: 30%">
+                  <div class="img-edit-container">
+                    <img id="img-edit" src="assets/img1.png" alt="ảnh ban đầu" />
+                    <div class="file-upload-action">
+                      <label class="upload-file" for="upload">
+                        <div class="upload-button-icon">
+                          <i class="fa-solid fa-camera"></i>
+                        </div>
+                        <div class="upload-button-title">
+                          Thay đổi hình ảnh
+                        </div>
+                        <input id="upload" class="upload-button-input" type="file" name="file" />
+                      </label>
+                    </div>
+                  </div>
+
+                  <span class="normal-text">
+                    <strong>MSSV:</strong>
+                    20205135
+                  </span>
+                </div>
+                <div class="col-third">
+                  <div class="init-info normal-text">
+                    <label for="nameEdit">Họ và tên:&emsp;</label>
+                    <input id="nameEdit" type="text" value="Nguyễn Ngọc Tú" name="name" />
+                  </div>
+                  <div class="init-info normal-text">
+                    <label for="time-enrollmentEdit">Năm vào trường:&emsp;</label>
+                    <input id="time-enrollmentEdit" type="number" value="2020" min="1900" max="2023"
+                      name="time-enrollment" />
+                  </div>
+                  <div class="init-info normal-text">
+                    <label for="education-levelEdit">Bậc đào tạo:&emsp;</label>
+                    <input id="education-levelEdit" name="education-level" type="text" value="KSCLC-TN-TT-VN-ICT" />
+                  </div>
+                  <div class="init-info normal-text">
+                    <label for="programEdit">Chương trình:&emsp;</label>
+                    <input id="programEdit" name="program" type="text" value="Công nghệ thông tin Việt-Nhật 2020" />
+                  </div>
+                  <div class="init-info normal-text">
+                    <label for="departmentEdit">Khoa/Viện quản lý:&emsp;</label>
+                    <input id="departmentEdit" name="department" type="text"
+                      value="Trường Công nghệ Thông tin và Truyền thông" />
+                  </div>
+                  <div class="init-info normal-text">
+                    <label for="statusEdit">Tình trạng học tập:&emsp;</label>
+                    <select name="study-status" id="statusEdit" aria-value="Học">
+                      <option value="Học">Học</option>
+                      <option value="Bảo lưu">Bảo lưu</option>
+                      <option value="Ra trường">Ra trường</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-third">
+                  <div class="init-info normal-text">
+                    <label for="genderEdit">Giới tính:&emsp;</label>
+                    <input class="gender" type="radio" name="gender" value="Nữ" checked />
+                    Nữ
+                    <input class="gender" type="radio" name="gender" value="Nam" />
+                    Nam
+                    <input class="gender" type="radio" name="gender" value="Khác" />
+                    Khác
+                  </div>
+                  <div class="init-info normal-text">
+                    <label for="classEdit">Lớp:&emsp;</label>
+                    <input id="classEdit" type="text" name="class" value="Công nghệ thông tin Việt-Nhật 2020" />
+                  </div>
+                  <div class="init-info normal-text">
+                    <label for="courseEdit">Khóa học:&emsp;</label>
+                    <input id="courseEdit" type="number" min="0" max="68" name="course" value="65" />
+                  </div>
+                  <div class="init-info normal-text">
+                    <label for="emailEdit">Email:&emsp;</label>
+                    <input id="emailEdit" name="email" type="email" value="tu.nn205135@sis.hust.edu.vn" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="main-content-title">
+          <h3>THÔNG TIN HỌC TẬP</h3>
+          <hr />
+        </div>
+        <div class="main-content-container">
+          <div class="main-content-info col-half">
+            <span class="normal-text">
+              <strong>Tổng kết học kỳ: </strong>
+              20222
+              <br />
+              <strong>Trung bình tích lũy : </strong>
+              4.0
+              <br />
+              <strong>Số TC nợ đăng ký : </strong>
+              0
+              <br />
+            </span>
+          </div>
+          <div class="main-content-info col-half">
+            <span class="normal-text">
+              <strong>Số TC tích lũy : </strong>
+              100
+              <br />
+              <strong>Trình độ sinh viên : </strong>
+              4
+              <br />
+              <strong>Mức cảnh báo : </strong>
+              M0
+              <br />
+            </span>
+          </div>
+        </div>
+
+        <div class="main-content-title">
+          <h3>THÔNG TIN CÁ NHÂN</h3>
+          <hr />
+        </div>
+        <div class="main-content-container">
+          <div class="main-content-info col-half">
+            <span class="normal-text">
+              <strong>Dân tộc : </strong>
+              KINH
+              <br />
+              <strong>Năm TN cấp 3 : </strong>
+              Không có dữ liệu
+              <br />
+              <strong>Địa chỉ :</strong> BẮC NINH
+              <br />
+              <strong>Số CMTND : </strong>
+              0123***89
+              <br />
+              <strong>Nơi cấp : </strong>
+              THÀNH PHỐ BẮC NINH
+              <br />
+              <strong>Họ tên bố : </strong>
+              LÊ VĂN A
+              <br />
+              <strong>Năm sinh : </strong>
+              12-12-1912
+              <br />
+              <strong>Nghề nghiệp : </strong>
+              TỰ DO
+              <br />
+              <strong>Điện thoại : </strong>0945***99
+              <br />
+              <strong>Email : </strong> KHÔNG
+              <br />
+            </span>
+          </div>
+          <div class="main-content-info col-half">
+            <span class="normal-text">
+              <strong>Tôn giáo : </strong>
+              KHÔNG
+              <br />
+              <strong>Trường THPT : </strong>
+              CHUYÊN BẮC NINH
+              <br />
+              <strong>Hộ khẩu : </strong>
+              TỈNH BẮC NINH
+              <br />
+              <strong>Số Điện thoại : </strong>
+              093***99
+              <br />
+              <strong>Họ tên mẹ : </strong>
+              NGUYỄN THỊ B
+              <br />
+              <strong>Năm sinh : </strong>
+              06-23-1973
+              <br />
+              <strong>Nghề nghiệp : </strong>
+              TỰ DO
+              <br />
+              <strong>Điện thoại : </strong>099***99
+              <br />
+              <strong>Email : </strong>
+              KHÔNG CÓ
+              <br />
+            </span>
+          </div>
+        </div>
+
+        <br />
+        <br />
+        <div class="main-content-info">
+          <span class="normal-text">
+            <strong>Ghi chú:</strong>
+            Nếu sinh viên thấy thông tin của mình chưa chính xác, xin vui lòng
+            liên hệ phòng Đào tạo để cập nhật lại.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-main">
+        <div class="footer-left"></div>
+        <div class="footer-right">
+          <hr />
+          <b>Trường Đại học Bách Khoa Hà Nội</b>
+          <br /><br />
+          <p>Số 1 Đại Cồ Việt, Hai Bà Trưng, Hà Nội</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+
+</html>
